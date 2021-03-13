@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<title>Information Gathering</title>
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="index.html">Scope Discussion with client</a>
+    <a href="index.html">Establishing relationships & rapport with target</a>
+    <a href="exploitation.html">Exploitation</a>
+    <a href="post exploitation.html">Post Exploitation Analysis</a>
+    <a href="Information gathering.html">Information gathering</a>
+    <a href="lifecycle of penetration testing.html">Lifecycle of penetration testing</a>
+    <a href="Ethical concerns.html">Ethical & Legal concerns</a>
+    <a href="Report discussion".html">Report discussion & suggestions for improvement</a>
+  </div>
+  
+  <!-- Use any element to open the sidenav -->
+  <span onclick="openNav()">open</span>
+  
+  <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+  <div id="main">
+    ...
+  </div>
+
+
+
+<section>
+    <div className="header">
+    <div className="header-insert">
+        <h1><b>Information Gathering and OSINT (Open Source Intellegence)</b></head>
+        <h3>Tools and guidance on how to conduct information gathering prior to exploit creation</h3>
+        </div>
+        <img src={picture2} alt="picture of osint examples (facebook/twitter etc)"/>
+
+        </div>
+        <body>
+    
+        <div className="main">
+            <p>
+                Prior to conducting any exploitation, information needs to be gathered about the target, whether that be the company, or a specific employee.
+            <br>
+                The best approach is to find as much publically available information about the targets as possible, prior to engagement.  This can be conducted <br>
+                through mutliple different methods, ranging from physical observation, phone calls, emails and OSINT (Open Source Intellegence).
+            <br>
+            </p>
+            <p>
+                <b>OSINT</b><br> 
+                This refers to information which is publically available, such as information posted by employees or the company on their own websites, or on <br>
+                 social media websites (e.g. Facebook, Twitter, Instagram). OSINT is a resource which can be incredibly useful when finding information needed to <br>
+                  formulate an attack, such information as employee badge types can often be found in photos, as well as company heirarchy and contact emails.
+            </p>
+            <p>
+                A tool has already been created to help professionals conduct OSINT investigations, this tool can be found at <b><a href="https://osintframework.com/">OSINTframework</a><b><br>
+                This tool is created in the United states, so some sites may not be applicable for those working in other countries. Use your discretion to filter out what is beneficial. 
+            </p>
+            <p><b>General Information</b></p>
+            <p>Specific information required for particular exploits can be found on the particular exploits page, but generic information about a target or company which can prove useful is listed in the following table:</p>
+            <table style="width:100%">
+            <tr>
+                <th>Specific individual</th>
+                <th>Useful for</th>
+                <th>Commonly found</th>
+                <th>Company</th>
+                <th>Useful for</th>
+                <th>Commonly found</th>
+              </tr>
+              <tr>
+                <td>Role</td>
+                <td>Spear phishing</td>
+                <td>Employee Email Signiture/LinkedIn</td>
+                <td>Employees names</td>
+                <td>Impersonisation/Phishing</td>
+                <td>Company LinkedIn</td>
+              </tr>
+              <tr>
+                <td>Business Email address</td>
+                <td>Phishing/Spear Phishing/spoofing</td>
+                <td>Hunter.io/Company Webpage</td>
+                <td>Heirarchy</td>
+                <td>Phishing//Spear Phishing/impersonisation</td>
+                <td>Company LinkedIn/ Other Social Media</td>
+              <tr>
+                  <td>Family Members</td>
+                  <td>Impersonisation/Avoiding suspicious for on-site attacks</td>
+                  <td>Social Media (Facebook/Instagram/Twitter)</td>
+                  <td>CEO</td>
+                  <td>Spear Phishing/Vishing</td>
+                  <td>Companies House(UK)/Social Media (LinkenIn)</td>
+              </tr>
+            <tr>
+                <td>Personal Email address</td>
+                <td>Spear Phishing</td>
+                <td>Social Media (Instagram/LinkedIn/Facebook)</td>
+                <td>Addresses/Offices</td>
+                <td>Tailgating/Perimiter Security evasion</td>
+                <td>Company Website/Companies House (UK)</td>
+            </tr>
+            <tr>
+                <td>Phone number (business & personal)</td>
+                <td>Vishing</td>
+                <td>Company Website/Yellow pages (UK)</td>
+                <td>Company phone numbers list</td>
+                <td>Vishing</td>
+                <td>Social Media/Company Website (trial and error with similar extensions)</td>
+            </tr>
+            <tr>
+                <td>Schedule</td>
+                <td>Impersonisation/Tailgating</td>
+                <td>Emailing Assistants/Social Media</td>
+                <td>Services offered</td>
+                <td>Phishing/Spear Phishing</td>
+                <td>Company Website</td>
+            </tr>
+            <tr>
+                <td>Hobbies</td>
+                <td>Spear Phishing/Spear Vishing</td>
+                <td>Social Media (Facebook/Instagram)</td>
+                <td>Badge Requirements for buildings</td>
+                <td>On-site attacks/impersonisation</td>
+                <td>Social Media (Photos)/In person Observation</td>
+                <td></td>
+            </tr>
+
+            </table>
+            
+        </div>
+    </body>
